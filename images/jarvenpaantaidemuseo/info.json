@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 110,
+    "height" : 77
+  }, {
+    "width" : 220,
+    "height" : 153
+  }, {
+    "width" : 439,
+    "height" : 306
+  }, {
+    "width" : 877,
+    "height" : 612
+  }, {
+    "width" : 1754,
+    "height" : 1224
+  }, {
+    "width" : 3507,
+    "height" : 2448
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3507,
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/images/jarvenpaantaidemuseo",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2448
+}
