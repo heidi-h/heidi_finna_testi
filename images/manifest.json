@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://heidi-h.github.io/heidi_finna_testi/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in heidi-h/heidi_finna_testi project"
+        ]
+    },
+    "items": []
+}
