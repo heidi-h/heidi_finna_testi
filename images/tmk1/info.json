@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 174,
+    "height" : 154
+  }, {
+    "width" : 348,
+    "height" : 308
+  }, {
+    "width" : 695,
+    "height" : 616
+  }, {
+    "width" : 1390,
+    "height" : 1231
+  }, {
+    "width" : 2780,
+    "height" : 2462
+  }, {
+    "width" : 5560,
+    "height" : 4924
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 5560,
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/images/tmk1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4924
+}

@@ -90,6 +90,168 @@
             ]
         },
         {
+            "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "tmk2"
+                ]
+            },
+            "height": 3872,
+            "width": 7128,
+            "items": [
+                {
+                    "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 223,
+                                                "height": 121
+                                            },
+                                            {
+                                                "width": 446,
+                                                "height": 242
+                                            },
+                                            {
+                                                "width": 891,
+                                                "height": 484
+                                            },
+                                            {
+                                                "width": 1782,
+                                                "height": 968
+                                            },
+                                            {
+                                                "width": 3564,
+                                                "height": 1936
+                                            },
+                                            {
+                                                "width": 7128,
+                                                "height": 3872
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 7128,
+                                        "@id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3872,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://heidi-h.github.io/heidi_finna_testi/images/tmk2/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "tmk1"
+                ]
+            },
+            "height": 4924,
+            "width": 5560,
+            "items": [
+                {
+                    "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 174,
+                                                "height": 154
+                                            },
+                                            {
+                                                "width": 348,
+                                                "height": 308
+                                            },
+                                            {
+                                                "width": 695,
+                                                "height": 616
+                                            },
+                                            {
+                                                "width": 1390,
+                                                "height": 1231
+                                            },
+                                            {
+                                                "width": 2780,
+                                                "height": 2462
+                                            },
+                                            {
+                                                "width": 5560,
+                                                "height": 4924
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 5560,
+                                        "@id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 4924,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://heidi-h.github.io/heidi_finna_testi/images/tmk1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://heidi-h.github.io/heidi_finna_testi/images/tmk/canvas/",
             "type": "Canvas",
             "label": {
