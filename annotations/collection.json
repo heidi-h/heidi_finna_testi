@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://heidi-h.github.io/heidi_finna_testi/annotations/b951797cabf6d323b627d7c3367a6ea0.json" ],
+  "otherContent" : [ "https://heidi-h.github.io/heidi_finna_testi/annotations/b951797cabf6d323b627d7c3367a6ea0.json", "https://heidi-h.github.io/heidi_finna_testi/annotations/4b254d2d975320138bdcdffdf836ef02.json" ],
   "@id" : "https://heidi-h.github.io/heidi_finna_testi/annotations/collection.json",
   "label" : "All annotations loaded in heidi-h/heidi_finna_testi project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
