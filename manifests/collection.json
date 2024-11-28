@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest2.json",
     "label" : "Heidin Finnatesti Maalaus"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json",
+    "label" : ""
   } ]
 }
