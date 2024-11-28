@@ -1,0 +1,172 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json",
+  "@type" : "sc:Manifest",
+  "label" : "",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is Heidi's collection of images gathered from Finna.fi-website, made during IIF Training.",
+    "@language" : "en"
+  } ],
+  "attribution" : "Materials provided by Järvenpään taidemuseo (Metsä), Forum Marinum (Siipiratashöyrylaiva) and The Museum Centre of Turku (Napoleon).",
+  "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sequences" : [ {
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "@id" : "http://c1cfdd1e-c00b-4f52-96b6-4202291791f0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://6e044a65-2b33-4b2a-a44a-1abed0173c99",
+      "@type" : "sc:Canvas",
+      "label" : "Episod ur Napoleons historia; Si quelqu'un veut tuer son empereur il le peut, le voici.",
+      "rights" : "Public Domain. When using the image, the original creator of the material and the responsible organization must be mentioned.",
+      "height" : 2472,
+      "width" : 2887,
+      "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fcb820b2-e7be-4321-b692-e47a1ffca5e0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2472,
+          "width" : 2887
+        },
+        "on" : "http://6e044a65-2b33-4b2a-a44a-1abed0173c99"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1",
+      "@type" : "sc:Canvas",
+      "label" : "Laivamalli; Siipiratashöyrylaiva (1/2)",
+      "height" : 3872,
+      "width" : 7128,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e4ff5942-bc82-455f-b271-28f5bd477de4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3872,
+          "width" : 7128
+        },
+        "on" : "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://71e6c446-11f1-4622-bcb2-7b09544be853",
+      "@type" : "sc:Canvas",
+      "label" : "Laivamalli; Siipiratashöyrylaiva (2/2",
+      "height" : 4924,
+      "width" : 5560,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8b6c0723-f00e-42cf-a8e4-4acf0c0bb844",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4924,
+          "width" : 5560
+        },
+        "on" : "http://71e6c446-11f1-4622-bcb2-7b09544be853"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://60ff3924-1367-4c92-b12b-c2fbd8eef60f",
+      "@type" : "sc:Canvas",
+      "label" : "Metsä",
+      "height" : 2448,
+      "width" : 3507,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5faa202b-bd9b-4043-a55c-8d6d9a223d97",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Fjarvenpaantaidemuseo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Fjarvenpaantaidemuseo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2448,
+          "width" : 3507
+        },
+        "on" : "http://60ff3924-1367-4c92-b12b-c2fbd8eef60f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Heidi's collection",
+    "members" : [ {
+      "@id" : "http://example.org/iiif/book1/range/r3",
+      "@type" : "sc:Range",
+      "label" : "Episod ur Napoleons historia; Si quelqu'un veut tuer son empereur il le peut, le voici.",
+      "canvases" : [ "http://6e044a65-2b33-4b2a-a44a-1abed0173c99" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r4",
+      "@type" : "sc:Range",
+      "label" : "Laivamalli; Siipiratashöyrylaiva (1/2)",
+      "canvases" : [ "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r5",
+      "@type" : "sc:Range",
+      "label" : "Laivamalli; Siipiratashöyrylaiva (2/2)",
+      "canvases" : [ "http://71e6c446-11f1-4622-bcb2-7b09544be853" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r6",
+      "@type" : "sc:Range",
+      "label" : "Metsä",
+      "canvases" : [ "http://60ff3924-1367-4c92-b12b-c2fbd8eef60f" ]
+    } ]
+  } ]
+}
