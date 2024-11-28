@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json",
   "@type" : "sc:Manifest",
-  "label" : "",
+  "label" : "Heidi's IIF Manifest",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is Heidi's collection of images gathered from Finna.fi-website, made during IIF Training.",
