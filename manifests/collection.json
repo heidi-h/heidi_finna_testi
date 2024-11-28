@@ -1,0 +1,13 @@
+{
+  "id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in heidi-h/heidi_finna_testi project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest2.json",
+    "label" : "Heidin Finnatesti Maalaus"
+  } ]
+}
