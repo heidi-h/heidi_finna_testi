@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "translation",
+      "@type" : "oa:Tag",
+      "chars" : "translation"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "<strong id=\"lorem\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. \"Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.\"",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong id=\"lorem\">Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. <em>Sed arcu lectus auctor vitae</em>, consectetuer et venenatis eget velit. \"Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.\"</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/55836715",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-28T15:09:39",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732806579414",
+    "dcterms:modified" : "2024-11-28T15:09:39",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=527,1890,1843,170"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M527.31095,1889.9204h921.33831v0h921.33831v85.0398v85.0398h-921.33831h-921.33831v-85.0398z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_02865c4b-6573-4de9-bd12-567ea23f13f8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://6e044a65-2b33-4b2a-a44a-1abed0173c99"
+    } ]
+  } ],
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/annotations/b951797cabf6d323b627d7c3367a6ea0.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
