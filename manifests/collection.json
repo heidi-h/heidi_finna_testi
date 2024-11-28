@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json",
     "label" : ""
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_annotations.json",
+    "label" : "Heidi's IIF Manifest with annotations"
   } ]
 }
