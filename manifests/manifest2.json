@@ -1,0 +1,95 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Heidin Finnatesti Maalaus",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is Heidi's IIF test with some high resolution photos.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "The painting Metsä was painted by Eero Järnefelt and belongs to the Järvenpää Museum Collections. Photo of the Metsä painting is released under CC0 license. The photo of the ship is released under Public Domain and belongs to Forum Marinum Collections.",
+  "sequences" : [ {
+    "@id" : "http://68a3379d-c532-4bd9-8d63-a7ba7cad27f5",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://09523328-0403-443c-8022-c2ad2d441822",
+      "@type" : "sc:Canvas",
+      "label" : "Heidin Finnatesti Pienoismalli",
+      "height" : 4924,
+      "width" : 5560,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3841e10a-a19d-451a-ac88-6244d36bbc16",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Ftmk1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4924,
+          "width" : 5560
+        },
+        "on" : "http://09523328-0403-443c-8022-c2ad2d441822"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://870d9c2d-5642-4cd0-9f45-4521f382c8fe",
+      "@type" : "sc:Canvas",
+      "label" : "Heidin Finnatesti Maalaus",
+      "height" : 2448,
+      "width" : 3507,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://263791c3-e347-48e3-85cf-95b528ed7b7f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Fjarvenpaantaidemuseo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fheidi-h%2Fheidi_finna_testi%2Fjarvenpaantaidemuseo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2448,
+          "width" : 3507
+        },
+        "on" : "http://870d9c2d-5642-4cd0-9f45-4521f382c8fe"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://09523328-0403-443c-8022-c2ad2d441822" ]
+  } ]
+}
