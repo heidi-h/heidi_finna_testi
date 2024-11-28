@@ -1,0 +1,117 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "detail",
+      "@type" : "oa:Tag",
+      "chars" : "detail"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "material",
+      "@type" : "oa:Tag",
+      "chars" : "material"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "<strong id=\"lorem\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong id=\"lorem\">Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/55836715",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-28T15:12:01",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732806721032",
+    "dcterms:modified" : "2024-11-28T15:12:01",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2135,1127,32,48"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2151.33002,1175.08458c0,-10.70205 5.35102,-21.40409 16.05307,-32.10614c0,-8.86586 -7.1872,-16.05307 -16.05307,-16.05307c-8.86586,0 -16.05307,7.1872 -16.05307,16.05307c10.70205,10.70205 16.05307,21.40409 16.05307,32.10614z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_ae0d6317-a04f-45b4-8c64-d3c5ab590fd6\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "detail",
+      "@type" : "oa:Tag",
+      "chars" : "detail"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "<strong id=\"lorem\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong id=\"lorem\">Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/55836715",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-28T15:12:29",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732806749891",
+    "dcterms:modified" : "2024-11-28T15:12:29",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4935,2453,32,48"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4950.98507,2501.06799c0,-10.70205 5.35102,-21.40409 16.05307,-32.10614c0,-8.86586 -7.1872,-16.05307 -16.05307,-16.05307c-8.86586,0 -16.05307,7.1872 -16.05307,16.05307c10.70205,10.70205 16.05307,21.40409 16.05307,32.10614z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_b5fec0e6-f92a-4bee-afd6-5fd6abca9330\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "<strong id=\"lorem\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong id=\"lorem\">Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/55836715",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-11-28T15:11:18",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732806678833",
+    "dcterms:modified" : "2024-11-28T15:11:18",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heidi-h.github.io/heidi_finna_testi/manifests/manifest_final.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3951,1887,29,43"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3965.64776,1930.2209c0,-9.63184 4.81592,-19.26368 14.44776,-28.89552c0,-7.97928 -6.46848,-14.44776 -14.44776,-14.44776c-7.97928,0 -14.44776,6.46848 -14.44776,14.44776c9.63184,9.63184 14.44776,19.26368 14.44776,28.89552z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_b4e16ae4-07a9-45c3-91b9-eb6d1abb7490\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1aec5b01-5638-4b1c-ad81-e4bc66ed51d1"
+    } ]
+  } ],
+  "@id" : "https://heidi-h.github.io/heidi_finna_testi/annotations/aa74c7ee6f7de4a139d72695a94f2090.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
